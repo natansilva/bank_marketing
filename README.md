@@ -10,7 +10,10 @@ Esse projeto utiliza a base de dados disponível [aqui](https://archive.ics.uci.
 
 
 ## INSTALAÇÃO
-Para conseguir rodar a analise você deve ter instalados as bibliotecas no arquivo [requirements](./requirements.txt).
+Para conseguir rodar a analise você deve ter instalados em sua maquina o seguinte:
+1. Python 3
+2. jupyter Notebook
+3. As bibliotecas no arquivo [requirements](./requirements.txt).
 
 ## OBSERVAÇÕES
 Não existe nenhuma informação na base que fale explicitamente sobre seguro de crédito ou inadimplência. Portanto irei utilizar a premissa de que clientes que não possuem crédito pré aprovado (utilizando a coluna `default` para isso) seriam em que o banco deveria exigir um seguro de crédito.
